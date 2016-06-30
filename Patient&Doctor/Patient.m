@@ -19,8 +19,8 @@
     return self;
 }
 
-- (void)askDoctor {
-        
+- (void)visitDoctor:(Doctor *)doctor {
+    [doctor acceptPatient:self];
 }
 
 @end

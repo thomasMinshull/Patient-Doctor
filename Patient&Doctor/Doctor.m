@@ -20,4 +20,16 @@
     return self;
 }
 
+- (void)acceptPatient:(Patient *)patient {
+    if (patient) {
+        if (patient.hasValidHC) {
+            NSLog(@"Welcome, %@", patient.name);
+            [self.acceptedPatinents setValue:patient forKey:patient.name];
+        } else {
+            NSLog(@"Sorry, your HC is expired");
+        }
+    } else {
+        NSLog(@"patient is nil");
+    }
+}
 @end

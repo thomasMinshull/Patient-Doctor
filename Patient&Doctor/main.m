@@ -21,6 +21,7 @@ int main(int argc, const char * argv[]) {
         Doctor *doctor = [[Doctor alloc] initWithName:drName andSpecialization:drSpecialty];
         Patient *patient = [[Patient alloc] initWithAge:patientAge andName:patientName];
         
+        [patient visitDoctor:doctor];
         
         
         
