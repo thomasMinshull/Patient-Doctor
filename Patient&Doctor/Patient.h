@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Doctor.h"
 
 @interface Patient : NSObject
 
-@property (nonatomic)NSNumber *age;
-@property (nonatomic)NSString *name;
+@property (nonatomic) NSNumber *age;
+@property (nonatomic) NSString *name;
+@property (nonatomic) NSMutableDictionary *medTaken;
+@property BOOL hasValidHC;
 
 - (instancetype)initWithAge:(NSNumber *)age andName:(NSString *)name;
-
-- (void)askDoctor;
+- (void)visitDoctor:(Doctor *)doctor;
 
 @end

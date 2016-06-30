@@ -7,11 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Doctor.h"
+#import "Patient.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSNumber *patientAge = [NSNumber numberWithInt:23];
+        NSString *patientName = @"bob";
+        
+        NSString *drName = @"Dr. Bob";
+        NSString *drSpecialty = @"Dentist";
+        
+        Doctor *doctor = [[Doctor alloc] initWithName:drName andSpecialization:drSpecialty];
+        Patient *patient = [[Patient alloc] initWithAge:patientAge andName:patientName];
+        
+        
+        
+        
     }
     return 0;
 }
