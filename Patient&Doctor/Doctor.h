@@ -14,11 +14,11 @@
 
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *specialization;
-@property (nonatomic) NSMutableDictionary *acceptedPatinents;
-@property (nonatomic) NSMutableArray *medications;
+@property (nonatomic) NSMutableSet *acceptedPatinents;
+@property (nonatomic) NSMutableDictionary *medications;
 
 - (instancetype)initWithName:(NSString *)name andSpecialization:(NSString *)specialization;
-- (void)acceptPatient:(Patient *)patient;
+- (BOOL)acceptPatient:(Patient *)patient;
 - (void)requestMeds:(Patient *)patient;
 
 @end

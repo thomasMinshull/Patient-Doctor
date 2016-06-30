@@ -13,7 +13,8 @@
 
 @property (nonatomic) NSNumber *age;
 @property (nonatomic) NSString *name;
-@property (nonatomic) NSMutableDictionary *medTaken;
+@property (nonatomic) NSMutableSet *medsTaken;
+@property (nonatomic) NSMutableArray *symptoms;
 @property BOOL hasValidHC;
 
 - (instancetype)initWithAge:(NSNumber *)age andName:(NSString *)name;

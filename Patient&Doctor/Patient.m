@@ -15,12 +15,18 @@
     if (self) {
         self.age = age;
         self.name = name;
+        self.symptoms = [[NSMutableArray alloc] init];
+        self.medsTaken = [[NSMutableSet alloc] init];
     }
     return self;
 }
 
 - (void)visitDoctor:(Doctor *)doctor {
-    [doctor acceptPatient:self];
+    if ([doctor acceptPatient:self]){
+        NSLog(@"visitDoctor called, step 1");
+        [doctor requestMeds:self];
+    }
+    
 }
 
 @end
