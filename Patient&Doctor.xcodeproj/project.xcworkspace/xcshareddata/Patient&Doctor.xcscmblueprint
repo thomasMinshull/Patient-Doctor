@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4B44A480EAD6F52C664BC778B8BE8435D202ECC2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4B44A480EAD6F52C664BC778B8BE8435D202ECC2" : 0,
+    "F2800A697EB7AE359E57277ABC73C9A16534F343" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D9E22126-EF01-407E-ADD0-A7910C4B33CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4B44A480EAD6F52C664BC778B8BE8435D202ECC2" : "Patient&Doctor\/",
+    "F2800A697EB7AE359E57277ABC73C9A16534F343" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Patient&Doctor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Patient&Doctor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thomasMinshull\/Patient-Doctor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B44A480EAD6F52C664BC778B8BE8435D202ECC2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thomasMinshull\/LHL.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2800A697EB7AE359E57277ABC73C9A16534F343"
+    }
+  ]
+}
